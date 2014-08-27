@@ -28,7 +28,10 @@ public class Fraction
    
    public static Fraction reduce(Fraction fraction)
    {
-      return reduce(fraction.numerator, fraction.denominator);
+       int factor = GCF(fraction.numerator, fraction.denominator);
+       fraction.numerator /= factor;
+       fraction.denominator /= factor;
+       return fraction;
    }
    
    public static Fraction reduce(int num, int den)
@@ -74,8 +77,11 @@ public class Fraction
       Fraction reducedThis = reduce(this);
       if (reducedThis.denominator != other.denominator)
          return false;
-      if (reducedThis.numerator != other.numerator)
-         return false;
-      return true;
+       return reducedThis.numerator == other.numerator;
    }
+
+    @Override
+    public String toString() {
+        return numerator + " / " + denominator;
+    }
 }
