@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec9a3dc-3ff7-4134-8061-76ab8e96753d" name="Default" comment="Got all PE modules in one project">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PE33/src/Fraction.java" afterPath="$PROJECT_DIR$/PE33/src/Fraction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PE33/src/PE33.java" afterPath="$PROJECT_DIR$/PE33/src/PE33.java" />
+    <list default="true" id="4ec9a3dc-3ff7-4134-8061-76ab8e96753d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Project_Euler.iws" />
@@ -457,7 +455,11 @@
       <created>1408577308346</created>
       <updated>1408577308346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Got all PE modules in one project">
+      <created>1409172609743</created>
+      <updated>1409172609743</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
