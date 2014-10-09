@@ -5,6 +5,11 @@ public class PE35
    public static final int TOP = 1000000;
    public static void main(String[] args)
    {
+       Tools.Primes test = new Tools.Primes(100);
+       test.print();
+
+
+       /*
       PrimeNumberList primes = new PrimeNumberList("below", TOP);
       HashSet<Integer> nums = new HashSet<Integer>();
       int numDigits;
@@ -43,6 +48,7 @@ public class PE35
          
       }
       System.out.println(nums.size());
+      */
    }
    
    public static int rotateDigits(int x, int numDigits)
