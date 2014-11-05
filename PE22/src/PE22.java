@@ -16,7 +16,7 @@ public class PE22
       {  
          // ------- open and read the file
          inFile = new BufferedReader( 
-               new FileReader("names.txt") );
+               new FileReader("/Users/Jamie/GitHub/Project_Euler/PE22/src/names.txt") );
 
          text = inFile.readLine();
 
