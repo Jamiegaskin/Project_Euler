@@ -46,7 +46,6 @@ public class PE42 {
                 count++;
             }
         }
-
         System.out.println(count);
     }
 }
